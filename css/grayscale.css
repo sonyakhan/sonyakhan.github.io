@@ -44,7 +44,7 @@ body {
   }
 }
 a {
-  color: #42DCA3;
+  color: #00b7c7;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -52,7 +52,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #005961;
 }
 .light {
   font-weight: 400;
@@ -238,6 +238,9 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
+.contact-section {
+  padding: 50px 0;
+}
 .download-section {
   width: 100%;
   padding: 50px 0;
@@ -261,9 +264,9 @@ a:focus {
   .download-section {
     padding: 100px 0;
   }
-  #map {
-    height: 400px;
-    margin-top: 250px;
+  .contact-section {
+    padding-top: 250px;
+    padding-bottom: 250px;
   }
 }
 .btn {
@@ -276,16 +279,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #00b7c7;
+  color: #00b7c7;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #00b7c7;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #00b7c7;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -367,4 +370,7 @@ li {
 }
 .project-desc {
   margin-top: 5%;
+}
+footer {
+  background-image: linear-gradient(-135deg, #00996e 0%, #5252C9 59%, #002350 100%);
 }
