@@ -239,7 +239,7 @@ a {
 
 .profile-pic {
   border-radius: 50%;
-  max-width: 50%;
+  max-width: 30%;
   margin-bottom: 5%;
 }
 
@@ -361,4 +361,43 @@ body {
 
 li {
     list-style-type: none;
+}
+
+.screenshots {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.img-sm, .img-md, .img-lg {
+  border-radius: 5px;
+  bottom: 0;
+  border: 0;
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.75);
+}
+
+.img-lg {
+  width: 70%;
+  left: 0;
+  z-index: 1;
+  right: 0;
+}
+
+.img-md {
+  width: 40%;
+  right: 10%;
+  z-index: 2;
+  position: absolute;
+}
+
+.img-sm {
+  width: 15%;
+  height: 70%;
+  right: 1rem;
+  z-index: 3;
+  position: absolute !important;
+}
+
+.project-desc {
+  margin-top: 5%;
 }
