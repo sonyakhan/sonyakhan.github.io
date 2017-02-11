@@ -4,9 +4,12 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
     background-color: black;
+    p {
+      -webkit-font-smoothing: antialiased;
+    }
 }
 
 html {
@@ -17,6 +20,7 @@ html {
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+  font-size: 45px;
 }
 
 h2,
@@ -163,7 +167,8 @@ a {
                 font-size: 100px;
             }
             .intro-text {
-                font-size: 26px;
+                font-size: 24px;
+                font-weight: 700;
             }
         }
     }
@@ -246,6 +251,7 @@ a {
   border-radius: 50%;
   max-width: 30%;
   margin-bottom: 5%;
+  display: block;
 }
 
 .divider {
@@ -260,11 +266,7 @@ a {
     padding-top: 100px;
 }
 
-.contact-section {
-  padding: 50px 0;
-}
-
-.download-section {
+.skills-section {
     width: 100%;
     padding: 50px 0;
     color: white;
@@ -274,6 +276,34 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    .email {
+      a {
+        font-size: 20px;
+      }
+    }
+}
+
+.contact-section {
+  padding: 50px 0;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    .email {
+      a {
+        font-size: 20px;
+      }
+    }
 }
 
 #map {
@@ -283,9 +313,6 @@ a {
 }
 
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 250px;
-    }
 
     .download-section {
         padding: 100px 0;
@@ -300,6 +327,8 @@ a {
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -336,11 +365,20 @@ ul.banner-social-buttons {
     }
 }
 
+.intro-about {
+  h3 {
+    text-transform: none;
+  }
+}
+
 footer {
-    padding: 50px 0;
-    p {
-        margin: 0;
-    }
+  padding: 50px 0;
+  p {
+      margin: 0;
+  }
+  p {
+    font-size: 16px;
+  }
 }
 
 ::-moz-selection {
