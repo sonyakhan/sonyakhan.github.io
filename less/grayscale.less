@@ -6,7 +6,7 @@ body {
     height: 100%;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
-    background-color: black;
+    background-color: @secondary;
     p {
       -webkit-font-smoothing: antialiased;
     }
@@ -45,7 +45,7 @@ p, body {
     line-height: 1.5;
     @media(min-width:768px) {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.6;
     }
 }
@@ -129,7 +129,7 @@ a {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
-            background: black;
+            background: @secondary;
             border-bottom: 1px solid fade(white, 30%);
         }
     }
@@ -142,7 +142,10 @@ a {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url(../img/stars.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -252,7 +255,7 @@ a {
   max-width: 30%;
   margin-bottom: 5%;
   display: block;
-  filter: grayscale(20%);
+  filter: brightness(120%);
 }
 
 .divider {
@@ -271,7 +274,11 @@ a {
     width: 100%;
     padding: 50px 0;
     color: white;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    // background: linear-gradient(
+    //   rgba(0, 0, 0, 0.2),
+    //   rgba(0, 0, 0, 0.2)
+    // ), url(../img/downloads-bg.jpg) no-repeat bottom center scroll;
+    background: radial-gradient(at bottom, #16a085 10%, #321c73);
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -286,14 +293,14 @@ a {
 }
 
 .contact-section {
-  padding: 50px 0;
-}
-
-.contact-section {
     width: 100%;
     padding: 50px 0;
     color: white;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url(../img/nyc.jpg) no-repeat bottom center scroll;
+
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -330,6 +337,7 @@ a {
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 1px;
+    border-radius: 2px !important;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -373,7 +381,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-  padding: 50px 0;
+  padding: 30px 0;
   p {
       margin: 0;
   }
@@ -459,5 +467,6 @@ li {
 }
 
 footer {
-  background-image: linear-gradient(-135deg, #00996e 0%, #5252C9 59%, #002350 100%);
+  // background-image: linear-gradient(-135deg, #00996e 0%, #5252C9 59%, #002350 100%);
+  background-color: @secondary;
 }

@@ -8,7 +8,7 @@ body {
   height: 100%;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: #1c1c1c;
 }
 body p {
   -webkit-font-smoothing: antialiased;
@@ -46,12 +46,12 @@ body {
   p,
   body {
     margin: 0 0 35px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
   }
 }
 a {
-  color: #00b7c7;
+  color: #1abc9c;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -59,7 +59,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #005961;
+  color: #0e6252;
 }
 .light {
   font-weight: 400;
@@ -126,7 +126,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: #1c1c1c;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -137,7 +137,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/stars.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -237,7 +237,7 @@ a:focus {
   max-width: 30%;
   margin-bottom: 5%;
   display: block;
-  filter: grayscale(20%);
+  filter: brightness(120%);
 }
 .divider {
   display: block;
@@ -253,7 +253,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: radial-gradient(at bottom, #16a085 10%, #321c73);
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -264,13 +264,10 @@ a:focus {
   font-size: 20px;
 }
 .contact-section {
-  padding: 50px 0;
-}
-.contact-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/nyc.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -300,22 +297,23 @@ a:focus {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
+  border-radius: 2px !important;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #00b7c7;
-  color: #00b7c7;
+  border: 1px solid #1abc9c;
+  color: #1abc9c;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #00b7c7;
+  border: 1px solid #1abc9c;
   outline: none;
   color: black;
-  background-color: #00b7c7;
+  background-color: #1abc9c;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -339,7 +337,7 @@ ul.banner-social-buttons {
   text-transform: none;
 }
 footer {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 footer p {
   margin: 0;
@@ -413,5 +411,5 @@ li {
   font-size: 70px;
 }
 footer {
-  background-image: linear-gradient(-135deg, #00996e 0%, #5252C9 59%, #002350 100%);
+  background-color: #1c1c1c;
 }
