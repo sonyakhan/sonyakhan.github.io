@@ -34,7 +34,7 @@ h6 {
   letter-spacing: 1px;
 }
 a {
-  font-size: 16px;
+  font-size: 18px;
 }
 p,
 body {
@@ -73,8 +73,10 @@ a:focus {
 }
 .navbar-custom .navbar-toggle {
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  font-size: 12px;
+  background-color: #1c1c1c;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 3px 10px !important;
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
@@ -168,42 +170,6 @@ a:focus {
     font-weight: 700;
   }
 }
-.btn-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid white;
-  border-radius: 100% !important;
-  font-size: 40px;
-  color: white;
-  background: transparent;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
-.btn-circle:hover,
-.btn-circle:focus {
-  outline: none;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
-}
-.btn-circle i.animated {
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
-  -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 1s;
-}
-.btn-circle:hover i.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-}
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
@@ -244,7 +210,7 @@ a:focus {
   margin: 30px 0;
   width: 100px;
   height: 2px;
-  background-color: #00b7c7;
+  background-color: #1abc9c;
 }
 .content-section {
   padding-top: 100px;
@@ -260,9 +226,6 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-.skills-section .email a {
-  font-size: 20px;
-}
 .contact-section {
   width: 100%;
   padding: 50px 0;
@@ -274,8 +237,8 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-.contact-section .email a {
-  font-size: 20px;
+.contact-section h4 {
+  color: #1abc9c !important;
 }
 #map {
   width: 100%;
@@ -290,6 +253,9 @@ a:focus {
     padding-top: 250px;
     padding-bottom: 250px;
   }
+}
+.intro-about h3 {
+  font-weight: 400;
 }
 .btn {
   text-transform: uppercase;

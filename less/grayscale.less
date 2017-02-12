@@ -36,7 +36,7 @@ h6 {
 }
 
 a {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 p, body {
@@ -74,8 +74,10 @@ a {
     background-color: black;
     .navbar-toggle {
         color: white;
-        background-color: fade(white, 20%);
-        font-size: 12px;
+        background-color: @secondary;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 3px 10px !important;
         &:focus,
         &:active {
             outline: none;
@@ -177,45 +179,6 @@ a {
     }
 }
 
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid white;
-    border-radius: 100% !important;
-    font-size: 40px;
-    color: white;
-    background: transparent;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-    &:hover,
-    &:focus {
-        outline: none;
-        color: white;
-        background: fade(white, 10%);
-    }
-    i.animated {
-        -webkit-transition-property: -webkit-transform;
-        -webkit-transition-duration: 1s;
-        -moz-transition-property: -moz-transform;
-        -moz-transition-duration: 1s;
-    }
-    &:hover {
-        i.animated {
-            -webkit-animation-name: pulse;
-            -moz-animation-name: pulse;
-            -webkit-animation-duration: 1.5s;
-            -moz-animation-duration: 1.5s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: linear;
-            -moz-animation-timing-function: linear;
-        }
-    }
-}
-
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
@@ -263,7 +226,7 @@ a {
   margin: 30px 0;
   width: 100px;
   height: 2px;
-  background-color: #00b7c7;
+  background-color: @primary;
 }
 
 .content-section {
@@ -284,12 +247,6 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
-    .email {
-      a {
-        font-size: 20px;
-      }
-    }
 }
 
 .contact-section {
@@ -307,10 +264,8 @@ a {
     background-size: cover;
     -o-background-size: cover;
 
-    .email {
-      a {
-        font-size: 20px;
-      }
+    h4 {
+      color: @primary !important;
     }
 }
 
@@ -329,6 +284,12 @@ a {
       padding-top: 250px;
       padding-bottom: 250px;
     }
+}
+
+.intro-about {
+  h3 {
+    font-weight: 400;
+  }
 }
 
 .btn {
