@@ -68,14 +68,20 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-li > a {
+#mainNav a,
+#experience a,
+p a {
   position: relative;
 }
-li > a:link {
+#mainNav a:link,
+#experience a:link,
+p a:link {
   font-weight: bold;
   text-decoration: none;
 }
-li > a:before {
+#mainNav a:before,
+#experience a:before,
+p a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -89,7 +95,9 @@ li > a:before {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-li > a:hover:before {
+#mainNav a:hover:before,
+#experience a:hover:before,
+p a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
