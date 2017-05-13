@@ -6,48 +6,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <meta itemprop="name" content="Sonya Khan | Full Stack Web Developer" />
-    <meta itemprop="image" content="https://goo.gl/photos/4fMjr3MGxcCVvwFs6" />
-    <meta itemprop="description" content="Curious software engineer with a passion for combining
-    elegant code with beautiful design." />
-
-    <meta name="description" content="Curious software engineer with a passion for combining
-    elegant code with beautiful design." />
-    <meta name="author" content="Sonya Khan" />
-
-    <meta property="og:title" content="Sonya Khan | Full Stack Web Developer" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Curious software engineer with a passion for combining
-    elegant code with beautiful design." />
-    <meta property="og:image" content="https://goo.gl/photos/4fMjr3MGxcCVvwFs6" />
-    <meta property="og:url" content="https://sonyakhan.github.io/" />
-    <meta property="og:site_name" content="Sonya Khan" />
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Sonya Khan | Full Stack Web Developer">
-    <meta name="twitter:description" content="Curious software engineer with a passion for combining
-    elegant code with beautiful design.">
-    <meta name="twitter:image" content="https://goo.gl/photos/4fMjr3MGxcCVvwFs6">
-    <meta name="twitter:url" content="https://sonyakhan.github.io/">
-
-
-    <title>Sonya Khan | Full Stack Web Developer</title>
+    <title>Sonya Khan | Full Stack Developer</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
 
     <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/new-age.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,277 +34,413 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                  <i class="fa fa-bars"></i>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">Sonya</span> Khan
-                </a>
+                <a class="navbar-brand page-scroll" href="#page-top">SONYA KHAN</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#skills">Skills</a>
+                      <a href="https://drive.google.com/file/d/0B9TITycKeoNtX3RBbWlNOHVfYnM/view?usp=sharing" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#experience">Experience</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Sonya Khan</h1>
-                        <p class="intro-text">FULL STACK WEB DEVELOPER</p>
-                        <!-- <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-down animated"></i>
-                        </a> -->
+    <!-- <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
+                            <a href="#about" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                          <div class="terminal-padding">
+                            <img class="img-responsive center-block" src="img/terminal.png" alt="">
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <!-- <section id="about" class="container content-section"> -->
 
-    <section id="about" class="content-section">
+
+    <!-- <section id="about" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading">Insert Timeline Here</h2>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- About Me -->
+
+    <section id="about" class="features">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <img class="center-block profile-pic" src="./img/profilepic.jpg" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="intro-about">
-              <h1>Hey, I'm Sonya</h1>
-              <br>
-              <h3>Curious software engineer.</h3>
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2>About Me</h2>
+                    <hr>
+                </div>
+                <p>
+                  Hi, I'm Sonya. I'm a recent graduate of the <b>University of Illinois at Urbana–Champaign</b>, where I earned my Bachelor of Arts in <b>Economics</b>, with
+                  a minor in <b>Computer Science</b>. I have experience writing production-level software from my internship at <a href="http://www.liquidnet.com"><b>Liquidnet</b></a>, where
+                  I served as a software engineer intern, creating web apps and in-house tools. I'm also accustomed to the fast-paced start-up
+                  environment from my internship at <a href="http://youralley.com"><b>Alley</b></a>, where I was a business development &amp; operations intern.
+                </p>
+                <br>
+                <p>
+                  I'm <b>currently looking for full-time opportunities</b>
+                  as a developer, where I can continue to foster my passion for learning and problem-solving.
+                </p>
             </div>
-            <span class="divider"></span>
-            <p>
-              I'm a recent graduate of the <b>University of Illinois at Urbana–Champaign</b>, where I earned my Bachelor of Arts in <b>Economics</b>, with
-              a minor in <b>Computer Science</b>. I have experience writing production-level software from my internship at <a href="http://www.liquidnet.com"><b>Liquidnet</b></a>, where
-              I served as a software engineer intern, creating web apps and in-house tools. I'm also accustomed to the fast-paced start-up
-              environment from my internship at <a href="http://youralley.com"><b>Alley</b></a>, where I was a business development &amp; operations intern.
-            </p>
-            <p>
-              I love learning new things and challenging myself both personally and professionally. I'm <b>currently looking for full-time opportunities</b>
-              as a developer, where I can continue to foster my passion for learning and problem-solving.
-            </p>
-            <p>
-              <b>When I'm not coding</b>, I enjoy working out, reading (my favorite author is Murakami), gallivanting around
-              New York City in search of great eats, and playing League of Legends.
-            </p>
-          </div>
         </div>
       </div>
     </section>
 
 
-    <!-- Skills Section -->
 
-    <section id="skills" class="content-section">
-        <div class="skills-section">
-            <div class="container-fluid">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h1>Skills and Tools</h2>
-                    <span class="divider"></span>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="skill">
-                          <i class="devicon-html5-plain"></i>
-                          <figcaption>HTML</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-css3-plain"></i>
-                          <figcaption>CSS</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-sass-original"></i>
-                          <figcaption>Sass</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-less-plain-wordmark"></i>
-                          <figcaption>Less</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-javascript-plain"></i>
-                          <figcaption>JavaScript</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-java-plain"></i>
-                          <figcaption>Java</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-cplusplus-plain"></i>
-                          <figcaption>C++</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-angularjs-plain"></i>
-                          <figcaption>AngularJS</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-mysql-plain"></i>
-                          <figcaption>MySQL</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-git-plain"></i>
-                          <figcaption>Git</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-github-plain"></i>
-                          <figcaption>GitHub</figcaption>
-                        </div>
-                      </div>
+
+
+
+    <!-- Timeline -->
+    <section id="experience" class="bg-primary features">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2>Experience</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-badge"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Alley</h3>
+                <h4>Business Development &amp; Operations Intern</h4>
+                <div class="timeline-subheader">
+                  Co-working Space // Startup <br>
+                  New York, NY <br>
+                  June 2014 – August 2014
+                </div>
+              </div>
+              <div class="timeline-body">
+                <br>
+                <p>
+                  - Designed the company’s <a href="https://youralley.com/">website</a>. <br>
+                  - Formulated suggestions in strengthening the company by working closely with the COO to
+                    devise strategies. <br>
+                  - Solidified partnerships and planned collaborations with local businesses and start-ups. <br>
+                  - Featured in <a href="https://blogs.wsj.com/accelerators/2014/07/24/jason-saltzman-interns-do-not-get-coffee-not-anymore/">Wall Street Journal article</a> for work completed during the internship.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge warning"><i class="fa fa-code" aria-hidden="true"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Liquidnet</h3>
+                <h4>Software Engineer Intern</h4>
+                <div class="timeline-subheader">
+                  Global Trading Network // Fintech Company <br>
+                  New York, NY <br>
+                  June 2016 – August 2016
+                </div>
+              </div>
+              <div class="timeline-body">
+                <br>
+                <p>
+                  - Engineered and unit-tested new functionality for several different internal tools and customer- facing web apps. <br>
+                  - Created tool to allow employees to safely send company feedback to HR through an anonymized email using Protocol Buffers and API endpoints. <br>
+                  - Completely refactored RESTful in-house CRM application, migrating ASP.NET/C# code to AngularJS/Java. <br>
+                  - Collaborated closely with designers, clients, and other developers in ensuring optimal user experience.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge"><i class="fa fa-trophy" aria-hidden="true"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Best Engineering &amp; Business Potential Award</h3>
+                <h4>Research Park Web Application Competition</h4>
+                <div class="timeline-subheader">
+                  December 2016
+                </div>
+              </div>
+              <div class="timeline-body">
+                <br>
+                <p>
+                  Worked on a team with 2 other developers to create <a href="https://pair-program.herokuapp.com/">Pair Programming</a>, a collaborative text editor web app
+                  with an integrated chat system.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge warning"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">University of Illinois at Urbana–Champaign</h3>
+                <h4>
+                  Bachelor of Arts in Economics <br>
+                  Minor in Computer Science
+                </h4>
+                <div class="timeline-subheader">
+                  Urbana, IL <br>
+                  Graduated December 2016
+                </div>
+              </div>
+              <div class="timeline-body">
+                <br>
+                <h4>Relevant Coursework:</h4>
+                <p>
+                  - Intro to Computer Science <br>
+                  - Data Structures <br>
+                  - Discrete Mathematics <br>
+                  - Data Visualization <br>
+                  - The Art and Science of Web Programming <br>
+                  - User Interface Design
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>Projects</h2>
+                        <hr>
                     </div>
-                    <br><br>
-                    <h1>Currently Learning</h2>
-                    <span class="divider"></span>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="skill">
-                          <i class="devicon-python-plain"></i>
-                          <figcaption>Python</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-django-plain"></i>
-                          <figcaption>Django</figcaption>
-                        </div>
-                        <div class="skill">
-                          <i class="devicon-gulp-plain"></i>
-                          <figcaption>Gulp</figcaption>
-                        </div>
-                      </div>
-                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                  <img class="project-screen img-responsive" src="img/joel.png" alt="">
+                  <h3>Client Portfolio</h3>
+                  <div class="stack-space">
+                    <span class="stack">HTML</span>
+                    <span class="stack">CSS</span>
+                    <span class="stack">Bootstrap</span>
+                    <span class="stack">JavaScript</span>
+                    <span class="stack">AngularJS</span>
+                    <span class="stack">Node</span>
+                    <span class="stack">Express</span>
+                  </div>
+                  <p>A portfolio app built for Joel Min Jun Wong, a NYC based designer.</p>
+                  <div class="project-margin">
+                    <a href="http://www.mypapercat.com/#/" target="_blank" class="btn btn-outline-color btn-md demo-margin">Demo</a>
+                    <a href="https://github.com/sonyakhan/mypapercat" target="_blank" class="btn btn-outline-color btn-md">Code</a>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                  <img class="project-screen img-responsive" src="img/meetup.png" alt="">
+                  <h3>Meetup Finder</h3>
+                  <div class="stack-space">
+                    <span class="stack">HTML</span>
+                    <span class="stack">CSS</span>
+                    <span class="stack">Bootstrap</span>
+                    <span class="stack">JavaScript</span>
+                    <span class="stack">AngularJS</span>
+                    <span class="stack">Node</span>
+                    <span class="stack">Express</span>
+                  </div>
+                  <p>Web app used to locate nearby Meetup groups by supplying
+                  a search query and zipcode. Built using the Meetup API.</p>
+                  <div class="project-margin">
+                    <a href="http://meetup-finder.herokuapp.com" target="_blank" class="btn btn-outline-color btn-md demo-margin">Demo</a>
+                    <a href="https://github.com/sonyakhan/meetup-finder" target="_blank" class="btn btn-outline-color btn-md">Code</a>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                  <img class="project-screen img-responsive" src="img/pairprogramming.png" alt="">
+                  <h3>Pair Programming</h3>
+                  <div class="stack-space">
+                    <span class="stack">HTML</span>
+                    <span class="stack">CSS</span>
+                    <span class="stack">Foundation</span>
+                    <span class="stack">JavaScript</span>
+                    <span class="stack">AngularJS</span>
+                    <span class="stack">Node</span>
+                    <span class="stack">Express</span>
+                    <span class="stack">MongoDB</span>
+                    <span class="stack">Socket.io</span>
+                  </div>
+                  <p>
+                    Group project that <span class=underline>won the Best Engineering and Business Potential Award</span> given for the web app competition at
+                    <a href="http://researchpark.illinois.edu" target="_blank"><b>Research Park</b></a>.
+                    Allows users to easily create password protected rooms, add users,
+                    share and collaborate on code snippets, and chat seamlessly featuring our split-screen design.
+                    I created the UI and worked on the front-end.
+                  </p>
+                  <div class="project-margin">
+                    <a href="https://pair-program.herokuapp.com" target="_blank" class="btn btn-outline-color btn-md demo-margin">Demo</a>
+                    <a href="https://github.com/JunzeHe/498RKPairProgramming" target="_blank" class="btn btn-outline-color btn-md">Code</a>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                  <img class="project-screen img-responsive" src="img/imdb.png" alt="">
+                  <h3>IMDb &amp; Chill</h3>
+                  <span class="stack">HTML</span>
+                  <span class="stack">CSS</span>
+                  <span class="stack">Foundation</span>
+                  <span class="stack">JavaScript</span>
+                  <span class="stack">AngularJS</span>
+                  <span class="stack">Node</span>
+                  <span class="stack">Express</span>
+                  <p>
+                    Aggregates the top 250 movies on IMDb into one web app, allowing users to easily sift through movies by searching,
+                    filtering, or sorting by genre.
+                  </p>
+                  <a href="https://imdb-and-chill.herokuapp.com" target="_blank" class="btn btn-outline-color btn-md demo-margin">Demo</a>
+                  <a href="https://github.com/sonyakhan/mp3" target="_blank" class="btn btn-outline-color btn-md">Code</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-
-    <section id="projects" class="content-section">
-      <div class="container-fluid">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h1>Projects</h2>
-          <span class="divider"></span>
-          <div class="screenshots">
-            <img class="img-lg" src="./img/pplg.png" alt="">
-            <img class="img-md" src="./img/ppmd.png" alt="">
-            <img class="img-sm" src="./img/ppsm.png" alt="">
-          </div>
-          <br>
-          <h3>Pair Programming</h3>
-          <a href="https://pair-program.herokuapp.com" class="btn btn-default btn-md">Demo</a>
-          <a href="https://github.com/JunzeHe/498RKPairProgramming" class="btn btn-default btn-md">Code</a>
-          <div class="project-desc">
-            <p>
-              Born out of the need to collaborate and share ideas easily, two friends and I built Pair Programming as a modern take
-              on the typical collaborative text editor. Pair Programming allows users to easily create password protected rooms, add users,
-              share and collaborate on code snippets, and chat seamlessly featuring our split-screen design. With Pair Programming,
-              <b>we won the Best Engineering and Business Potential Award</b> given for the web app competition at
-              <a href="http://researchpark.illinois.edu"><b>Research Park</b></a>.
-            </p>
-            <p><b>Built With:</b> JavaScript, AngularJS, MongoDB, Express, Node, Socket.io, Foundation, HTML, CSS</p>
-          </div>
-          <div class="screenshots">
-            <img class="img-lg" src="./img/imdblg.png" alt="">
-            <img class="img-md" src="./img/imdbmd.png" alt="">
-            <img class="img-sm" src="./img/imdbsm.png" alt="">
-          </div>
-          <br>
-          <h3>IMDb &amp; Chill</h3>
-          <a href="https://imdb-and-chill.herokuapp.com" class="btn btn-default btn-md">Demo</a>
-          <a href="https://github.com/sonyakhan/mp3" class="btn btn-default btn-md">Code</a>
-          <div class="project-desc">
-            <p>
-              As a movie fanatic, I love indulging in films, but never know what to watch. IMDb &amp; Chill aggregates
-              the top 250 movies on IMDb into one web app, allowing users to easily sift through movies by searching,
-              filtering, or sorting by genre.
-            </p>
-            <p><b>Built With:</b> JavaScript, AngularJS, Foundation, HTML, CSS</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Download Section -->
-    <section id="contact" class="content-section text-center">
-        <div class="contact-section">
+    <!-- <section class="cta">
+        <div class="cta-content">
             <div class="container">
-              <div class="col-lg-8 col-lg-offset-2">
-                  <h1>Say Hello</h1>
-                  <br>
-                  <p>
-                    Get in touch, I'd love to hear from you! You can reach me via e-mail, or connect with me on LinkedIn.
-                  </p>
-                  <h4 class="email">sonya.khan.cs@gmail.com</h4>
-                  <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="mailto:sonya.khan.cs@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/khansonya" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/sonyakhan" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-                    </li>
-                  </ul>
-              </div>
+                <h2>Stop waiting.<br>Start building.</h2>
+                <a href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
             </div>
         </div>
+        <div class="overlay"></div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p><i class="fa fa-copyright" aria-hidden="true"></i> Sonya Khan 2017</p>
+    <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2>We <i class="fa fa-heart"></i> new friends!</h2>
+            <ul class="list-inline list-social">
+                <li class="social-twitter">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="social-facebook">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social-google-plus">
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+
+    <footer id="contact">
+        <div class="container">
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.linkedin.com/in/khansonya/" target="_blank">
+                  <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li></li>
+              <li>
+                <a href="https://github.com/sonyakhan" target="_blank">
+                  <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li></li>
+              <li>
+                <a href="mailto:sonya.khan.cs@gmail.com">
+                  <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <br>
+            <p>&copy; Sonya Khan</p>
         </div>
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&amp;sensor=false"></script>
-
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/new-age.min.js"></script>
 
 </body>
 
